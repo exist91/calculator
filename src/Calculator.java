@@ -1,5 +1,5 @@
 
-public class Calculater {
+public class Calculator {
 
 	int MyAdd(int operand1, int operand2)
 	{
