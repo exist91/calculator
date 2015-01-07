@@ -11,5 +11,11 @@ public class Main
 		System.out.println( calc.mult(20, 10) );
 		System.out.println( calc.div(20, 10) );
 		
+		//16진수 출력
+		System.out.println( calc.convertDecimalToHex(11));
+		System.out.println( calc.convertDecimalToHex(16));
+		System.out.println( calc.convertDecimalToHex(44));
+		System.out.println( calc.convertDecimalToHex(256));
+		System.out.println( calc.convertDecimalToHex(300));
 	}
 }
