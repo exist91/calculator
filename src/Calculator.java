@@ -21,12 +21,9 @@ public class Calculator {
 		return operand1 / operand2;
 	}
 	
-	//feature #2 16진수 변환 기능
 	public String convertDecimalToHex(int decimal)
 	{
-		String hex = Integer.toHexString(decimal);
-		
-		return hex;
+		return Integer.toHexString(decimal);
 	}
 	
 }
